@@ -7,6 +7,16 @@ $(document).ready(function () {
     llenarComboEspecies()
 });
 
+
+$("#Excel").click(function () {
+
+    const tabla = document.getElementById("tabla");
+
+    const workbook = XLSX.utils.table_to_book(tabla);
+
+    XLSX.writeFile(workbook, "Pokemones.xlsx");
+
+});
 function llenarComboEspecies() {
     $.ajax({
         url: urlEspecies,
@@ -63,7 +73,7 @@ function BuscarPokemon() {
             }
         });
     } catch (error) {
-        console.error("Error:", error.message);
+        alert("Error:", error.message);
     }
 
 }
