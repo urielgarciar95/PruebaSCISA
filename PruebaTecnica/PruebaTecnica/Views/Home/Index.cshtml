@@ -4,7 +4,7 @@
 
 <div class="row">
     <div class="col-md-3">
-        <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre de pokemon" value="" />
+        <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre de pokemon"/>
     </div>
     <div class="col-md-3">
         <select class="form-control" id="especies">
@@ -12,20 +12,29 @@
         </select>
     </div>
     <div class="col-md-1">
-        <button type="button" class="btn btn-success">Excel</button>
+        <button type="button" id="Buscar" class="btn btn-primary" onclick="BuscarPokemon();">Buscar</button>
+    </div>
+    <div class="col-md-1">
+        <button type="button" id="Excel" class="btn btn-success">Excel</button>
     </div>
     <div class="col-md-2">
-        <button type="button" class="btn btn-primary">Enviar Correo</button>
+        <button type="button" id="Correo" class="btn btn-danger">Enviar Correo</button>
     </div>
 </div>
 
 <div class="row">
     <div class="col-md-12">
         <table class="table">
-            <tr>
-                <th>Nombre</th>
-                <th>Imagen</th>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Imagen</th>
+                </tr>
+            </thead>
+            @* Aqui se mostraran los resultados *@
+            <tbody id="tablaPokemon">
+
+            </tbody>
         </table>
     </div>
 </div>

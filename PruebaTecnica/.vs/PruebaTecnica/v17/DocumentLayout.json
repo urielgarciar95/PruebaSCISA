@@ -11,6 +11,14 @@
       "RelativeMoniker": "D:0:0:{93F418AA-C033-4605-8673-915AB7CB2A8C}|PruebaTecnica\\PruebaTecnica.csproj|solutionrelative:pruebatecnica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{93F418AA-C033-4605-8673-915AB7CB2A8C}|PruebaTecnica\\PruebaTecnica.csproj|c:\\users\\uriel\\source\\repos\\pruebascisa\\pruebatecnica\\pruebatecnica\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F418AA-C033-4605-8673-915AB7CB2A8C}|PruebaTecnica\\PruebaTecnica.csproj|solutionrelative:pruebatecnica\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93F418AA-C033-4605-8673-915AB7CB2A8C}|PruebaTecnica\\PruebaTecnica.csproj|c:\\users\\uriel\\source\\repos\\pruebascisa\\pruebatecnica\\pruebatecnica\\models\\pokemonmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F418AA-C033-4605-8673-915AB7CB2A8C}|PruebaTecnica\\PruebaTecnica.csproj|solutionrelative:pruebatecnica\\models\\pokemonmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{93F418AA-C033-4605-8673-915AB7CB2A8C}|PruebaTecnica\\PruebaTecnica.csproj|c:\\users\\uriel\\source\\repos\\pruebascisa\\pruebatecnica\\pruebatecnica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93F418AA-C033-4605-8673-915AB7CB2A8C}|PruebaTecnica\\PruebaTecnica.csproj|solutionrelative:pruebatecnica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -26,8 +34,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\uriel\\source\\repos\\PruebaSCISA\\PruebaTecnica\\PruebaTecnica\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PruebaTecnica\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\uriel\\source\\repos\\PruebaSCISA\\PruebaTecnica\\PruebaTecnica\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PruebaTecnica\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowDwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T21:11:53.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PokemonModel.cs",
+              "DocumentMoniker": "C:\\Users\\uriel\\source\\repos\\PruebaSCISA\\PruebaTecnica\\PruebaTecnica\\Models\\PokemonModel.cs",
+              "RelativeDocumentMoniker": "PruebaTecnica\\Models\\PokemonModel.cs",
+              "ToolTip": "C:\\Users\\uriel\\source\\repos\\PruebaSCISA\\PruebaTecnica\\PruebaTecnica\\Models\\PokemonModel.cs",
+              "RelativeToolTip": "PruebaTecnica\\Models\\PokemonModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T20:55:46.812Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,14 +70,14 @@
               "RelativeDocumentMoniker": "PruebaTecnica\\wwwroot\\js\\site.js",
               "ToolTip": "C:\\Users\\uriel\\source\\repos\\PruebaSCISA\\PruebaTecnica\\PruebaTecnica\\wwwroot\\js\\site.js",
               "RelativeToolTip": "PruebaTecnica\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-08-28T22:06:13.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\uriel\\source\\repos\\PruebaSCISA\\PruebaTecnica\\PruebaTecnica\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PruebaTecnica\\Views\\Shared\\_Layout.cshtml",
@@ -51,7 +85,8 @@
               "RelativeToolTip": "PruebaTecnica\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAACPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-28T21:50:44.747Z"
+              "WhenOpened": "2026-08-28T21:50:44.747Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -61,21 +96,23 @@
               "RelativeDocumentMoniker": "PruebaTecnica\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\uriel\\source\\repos\\PruebaSCISA\\PruebaTecnica\\PruebaTecnica\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "PruebaTecnica\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-28T20:35:44.245Z"
+              "WhenOpened": "2026-08-28T20:35:44.245Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\uriel\\source\\repos\\PruebaSCISA\\PruebaTecnica\\PruebaTecnica\\Program.cs",
               "RelativeDocumentMoniker": "PruebaTecnica\\Program.cs",
               "ToolTip": "C:\\Users\\uriel\\source\\repos\\PruebaSCISA\\PruebaTecnica\\PruebaTecnica\\Program.cs",
               "RelativeToolTip": "PruebaTecnica\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-28T20:16:18.82Z"
+              "WhenOpened": "2026-08-28T20:16:18.82Z",
+              "EditorCaption": ""
             }
           ]
         }

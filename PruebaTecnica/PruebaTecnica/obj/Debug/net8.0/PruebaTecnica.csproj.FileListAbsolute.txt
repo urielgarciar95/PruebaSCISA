@@ -43,6 +43,7 @@ C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\obj\Debug\ne
 C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\obj\Debug\net8.0\PruebaTecnica.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\obj\Debug\net8.0\PruebaTecnica.RazorAssemblyInfo.cache
 C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\obj\Debug\net8.0\PruebaTecnica.RazorAssemblyInfo.cs
+C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\obj\Debug\net8.0\PruebaTecnica.sourcelink.json
 C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\obj\Debug\net8.0\staticwebassets\msbuild.PruebaTecnica.Microsoft.AspNetCore.StaticWebAssets.props
