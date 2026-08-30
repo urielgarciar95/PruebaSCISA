@@ -7,7 +7,7 @@ $(document).ready(function () {
     llenarComboEspecies()
 });
 
-
+//Función para exportar a Excel 
 $("#Excel").click(function () {
 
     const tabla = document.getElementById("tabla");
@@ -17,6 +17,47 @@ $("#Excel").click(function () {
     XLSX.writeFile(workbook, "Pokemones.xlsx");
 
 });
+
+//Funcion para enviar correo
+$("#Correo").click(function () {
+    //alert("enviar correo");
+    let pokemones = [];
+
+    $("#tabla tbody tr").each(function () {
+
+        let columnas = $(this).find("td");
+
+        pokemones.push({
+            nombre: $(columnas[0]).text(),
+            imagen: $(columnas[1]).find("img").attr("src")
+        });
+    });
+
+    console.log("pokemones", pokemones);
+
+   $.ajax({
+        url: "/Home/EnviarCorreo",
+        type: "POST",
+        dataType: 'json',
+        contentType: "application/json",
+        data: JSON.stringify({
+            pokemones: pokemones
+        }),
+
+       success: function (response) {
+           //Validar codigo de error
+           if(response.res == 0)
+               alert("Correo enviado correctamente");
+           else
+               alert("Error al enviar correo");
+        },
+
+        error: function () {
+            alert("Error al enviar el correo");
+        }
+    });
+});
+
 function llenarComboEspecies() {
     $.ajax({
         url: urlEspecies,

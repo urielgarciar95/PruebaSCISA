@@ -59,3 +59,10 @@ C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\obj\Debug\ne
 C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\obj\Debug\net8.0\PruebaTecnica.pdb
 C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\obj\Debug\net8.0\PruebaTecnica.genruntimeconfig.cache
 C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\obj\Debug\net8.0\ref\PruebaTecnica.dll
+C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\bin\Debug\net8.0\MailKit.dll
+C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\bin\Debug\net8.0\MimeKit.dll
+C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\obj\Debug\net8.0\PruebaTecnica.csproj.AssemblyReference.cache
+C:\Users\uriel\source\repos\PruebaSCISA\PruebaTecnica\PruebaTecnica\obj\Debug\net8.0\PruebaTe.5DFE3EDD.Up2Date
