@@ -1,6 +1,7 @@
 ﻿
 var urlEspecies = "https://pokeapi.co/api/v2/pokemon-species/?offset=0&limit=1025";
-
+let paginaActual = 1;
+const filasPorPagina = 5;
 $(document).ready(function () {
     $("#Excel").hide();
     $("#Correo").hide();
@@ -121,6 +122,7 @@ function BuscarPokemon() {
                         </tr>
                     `);
                 }
+                mostrarPagina(1);
 
             },
             error: function (xhr, status, error) {
@@ -135,3 +137,89 @@ function BuscarPokemon() {
     }
 
 }
+
+function mostrarPagina(pagina) {
+
+    const tabla = document.getElementById("tablaPokemon");
+    const filas = tabla.querySelectorAll("tbody tr");
+
+    const totalPaginas = Math.ceil(filas.length / filasPorPagina);
+
+    // Validar límites
+    if (pagina < 1) pagina = 1;
+    if (pagina > totalPaginas) pagina = totalPaginas;
+
+    paginaActual = pagina;
+
+    // Ocultar todas las filas
+    filas.forEach((fila, index) => {
+
+        const inicio = (paginaActual - 1) * filasPorPagina;
+        const fin = inicio + filasPorPagina;
+
+        if (index >= inicio && index < fin) {
+            fila.style.display = "";
+        } else {
+            fila.style.display = "none";
+        }
+    });
+
+    crearBotones(totalPaginas);
+}
+
+
+//Agregar paginación a tabla de resultados
+function crearBotones(totalPaginas) {
+
+    const paginacion = document.getElementById("paginacion");
+
+    paginacion.innerHTML = "";
+
+    // Botón anterior
+    const btnAnterior = document.createElement("button");
+
+    btnAnterior.innerText = "Anterior";
+
+    btnAnterior.onclick = function () {
+        mostrarPagina(paginaActual - 1);
+    };
+
+    btnAnterior.disabled = paginaActual === 1;
+
+    paginacion.appendChild(btnAnterior);
+
+
+    // Botones numéricos
+    for (let i = 1; i <= totalPaginas; i++) {
+
+        const boton = document.createElement("button");
+
+        boton.innerText = i;
+
+        if (i === paginaActual) {
+            boton.style.fontWeight = "bold";
+        }
+
+        boton.onclick = function () {
+            mostrarPagina(i);
+        };
+
+        paginacion.appendChild(boton);
+    }
+
+
+    // Botón siguiente
+    const btnSiguiente = document.createElement("button");
+
+    btnSiguiente.innerText = "Siguiente";
+
+    btnSiguiente.onclick = function () {
+        mostrarPagina(paginaActual + 1);
+    };
+
+    btnSiguiente.disabled = paginaActual === totalPaginas;
+
+    paginacion.appendChild(btnSiguiente);
+}
+
+

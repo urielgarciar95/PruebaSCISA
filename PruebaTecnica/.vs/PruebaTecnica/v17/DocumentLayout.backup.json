@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{93F418AA-C033-4605-8673-915AB7CB2A8C}|PruebaTecnica\\PruebaTecnica.csproj|solutionrelative:pruebatecnica\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{93F418AA-C033-4605-8673-915AB7CB2A8C}|PruebaTecnica\\PruebaTecnica.csproj|c:\\users\\uriel\\source\\repos\\pruebascisa\\pruebatecnica\\pruebatecnica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93F418AA-C033-4605-8673-915AB7CB2A8C}|PruebaTecnica\\PruebaTecnica.csproj|solutionrelative:pruebatecnica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{93F418AA-C033-4605-8673-915AB7CB2A8C}|PruebaTecnica\\PruebaTecnica.csproj|c:\\users\\uriel\\source\\repos\\pruebascisa\\pruebatecnica\\pruebatecnica\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93F418AA-C033-4605-8673-915AB7CB2A8C}|PruebaTecnica\\PruebaTecnica.csproj|solutionrelative:pruebatecnica\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{93F418AA-C033-4605-8673-915AB7CB2A8C}|PruebaTecnica\\PruebaTecnica.csproj|c:\\users\\uriel\\source\\repos\\pruebascisa\\pruebatecnica\\pruebatecnica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93F418AA-C033-4605-8673-915AB7CB2A8C}|PruebaTecnica\\PruebaTecnica.csproj|solutionrelative:pruebatecnica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93F418AA-C033-4605-8673-915AB7CB2A8C}|PruebaTecnica\\PruebaTecnica.csproj|c:\\users\\uriel\\source\\repos\\pruebascisa\\pruebatecnica\\pruebatecnica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{93F418AA-C033-4605-8673-915AB7CB2A8C}|PruebaTecnica\\PruebaTecnica.csproj|solutionrelative:pruebatecnica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93F418AA-C033-4605-8673-915AB7CB2A8C}|PruebaTecnica\\PruebaTecnica.csproj|c:\\users\\uriel\\source\\repos\\pruebascisa\\pruebatecnica\\pruebatecnica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,7 +42,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\uriel\\source\\repos\\PruebaSCISA\\PruebaTecnica\\PruebaTecnica\\appsettings.json",
               "RelativeDocumentMoniker": "PruebaTecnica\\appsettings.json",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\uriel\\source\\repos\\PruebaSCISA\\PruebaTecnica\\PruebaTecnica\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PruebaTecnica\\Controllers\\HomeController.cs",
@@ -62,12 +62,11 @@
               "RelativeToolTip": "PruebaTecnica\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAHoAAAAAAAAAAAAAAHQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T21:11:53.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-29T21:11:53.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PokemonModel.cs",
               "DocumentMoniker": "C:\\Users\\uriel\\source\\repos\\PruebaSCISA\\PruebaTecnica\\PruebaTecnica\\Models\\PokemonModel.cs",
               "RelativeDocumentMoniker": "PruebaTecnica\\Models\\PokemonModel.cs",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "PruebaTecnica\\Models\\PokemonModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T20:55:46.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-29T20:55:46.812Z"
             },
             {
               "$type": "Document",
@@ -86,7 +84,7 @@
               "RelativeDocumentMoniker": "PruebaTecnica\\wwwroot\\js\\site.js",
               "ToolTip": "C:\\Users\\uriel\\source\\repos\\PruebaSCISA\\PruebaTecnica\\PruebaTecnica\\wwwroot\\js\\site.js",
               "RelativeToolTip": "PruebaTecnica\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAwwHEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAQwHwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-08-28T22:06:13.221Z",
               "EditorCaption": ""
@@ -105,19 +103,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\uriel\\source\\repos\\PruebaSCISA\\PruebaTecnica\\PruebaTecnica\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "PruebaTecnica\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\uriel\\source\\repos\\PruebaSCISA\\PruebaTecnica\\PruebaTecnica\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "PruebaTecnica\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABoAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-28T20:35:44.245Z"
+              "WhenOpened": "2026-08-28T20:35:44.245Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\uriel\\source\\repos\\PruebaSCISA\\PruebaTecnica\\PruebaTecnica\\Program.cs",
               "RelativeDocumentMoniker": "PruebaTecnica\\Program.cs",
