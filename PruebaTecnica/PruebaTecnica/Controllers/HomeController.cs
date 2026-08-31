@@ -151,7 +151,6 @@ namespace PruebaTecnica.Controllers
 
             html.Append(@"
                         <tr>
-                            <th>ID</th>
                             <th>Nombre</th>
                             <th>Imagen</th>
                         </tr>
