@@ -6,6 +6,7 @@ using System.Text;
 using System.Text.Json;
 using MailKit.Net.Smtp;
 using MimeKit;
+using System;
 
 
 namespace PruebaTecnica.Controllers
@@ -41,21 +42,85 @@ namespace PruebaTecnica.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> BuscarPokemon(string nombre)
+        public async Task<IActionResult> BuscarPokemon(string nombre, int buscarEspecie, string urlEspecie)
         {
             var client = _httpClientFactory.CreateClient();
+            var resultado = new List<object>();
 
+            //Si selecciona una especie se dara prioridad aunque se haya tecleado un pokemon 
+            if (buscarEspecie > 0)
+            {            
+
+                var response = await client.GetAsync(
+                    urlEspecie
+                );
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    return NotFound(new
+                    {
+                        mensaje = "Pokémon no encontrado"
+                    });
+                }
+                var json = await response.Content.ReadAsStringAsync();
+
+                var options = new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                };
+
+                //var pokemon = JsonSerializer.Deserialize<JsonElement>(json);
+
+                var especie = JsonSerializer.Deserialize<PokemonSpecies>(
+                    json,
+                    options
+                );
+
+
+
+                foreach (var variedad in especie.Varieties)
+                {
+                    Console.WriteLine($"Consultar datos {variedad.Pokemon.Url}");
+                    var res = await ObtenerDatos(variedad.Pokemon.Url);
+                    /*var pokemonResponse = await client.GetAsync(
+                        variedad.Pokemon.Url
+                    );
+
+                    var pokemonJson = await pokemonResponse.Content.ReadAsStringAsync();
+
+                    var pokemon = JsonSerializer.Deserialize<PokemonDetail>(
+                        pokemonJson,
+                        options
+                    );*/
+
+                    resultado.Add(res);
+                }
+            }
+            else
+            {
+                resultado.Add(await ObtenerDatos($"https://pokeapi.co/api/v2/pokemon/{nombre.ToLower()}"));
+            }
+
+            Console.WriteLine($"Arreglo {resultado}");
+
+            return Json(resultado);
+
+        }
+
+        public async Task<PokemonModel> ObtenerDatos(string url)
+        {
+            var client = _httpClientFactory.CreateClient();
             var response = await client.GetAsync(
-                $"https://pokeapi.co/api/v2/pokemon/{nombre.ToLower()}"
+                url
             );
 
-            if (!response.IsSuccessStatusCode)
+            /*if (!response.IsSuccessStatusCode)
             {
                 return NotFound(new
                 {
                     mensaje = "Pokémon no encontrado"
                 });
-            }
+            }*/
 
             var json = await response.Content.ReadAsStringAsync();
 
@@ -71,8 +136,7 @@ namespace PruebaTecnica.Controllers
                     .GetString()
             };
 
-            return Json(resultado);
-
+            return resultado;
         }
 
         //Funcion para enviar correo
