@@ -1,6 +1,6 @@
 # Mi Proyecto
 
-Descripción del proyecto.
+Proyecto que consume la API de pokemon y muestra el nombre y la imagen en una tabla de resultados.
 
 ## Tecnologías
 

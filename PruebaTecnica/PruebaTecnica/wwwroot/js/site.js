@@ -59,6 +59,23 @@ $("#Correo").click(function () {
     });
 });
 
+
+$(document).ajaxStart(function () {
+
+    $("#loader")
+        .removeClass("d-none")
+        .addClass("d-flex");
+
+});
+
+$(document).ajaxStop(function () {
+
+    $("#loader")
+        .removeClass("d-flex")
+        .addClass("d-none");
+
+});
+
 function llenarComboEspecies() {
     $.ajax({
         url: urlEspecies,
